@@ -1,0 +1,27 @@
+{
+  "name": "meercall-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for pulling Meercall configs and secrets",
+  "main": "meercall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meercall/meercall-cli.git"
+  },
+  "keywords": [
+    "meercall"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meercall/meercall-cli/issues"
+  },
+  "homepage": "https://github.com/meercall/meercall-cli#readme",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "jsontoxml": "^1.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
